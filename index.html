@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="一个属于自己的个人博客，用来记录长期思考、项目实践和生活观察。"
+    />
+    <meta name="theme-color" content="#f5f1ea" />
+    <title>我的个人博客</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="feed.xml" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">跳到正文</a>
+
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="#home" aria-label="返回首页">
+          <span class="brand-mark">B</span>
+          <span class="brand-text">我的博客</span>
+        </a>
+
+        <nav class="nav" aria-label="主导航">
+          <a href="#home">文章</a>
+          <a href="#about">关于</a>
+          <a href="feed.xml">RSS</a>
+          <a href="README.md">发布</a>
+        </nav>
+
+        <button class="icon-button" id="themeToggle" type="button" aria-label="切换深浅色">
+          <span class="icon-sun" aria-hidden="true"></span>
+          <span class="icon-moon" aria-hidden="true"></span>
+        </button>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="profile-band" aria-labelledby="siteTitle">
+        <div class="profile-content">
+          <div class="profile-copy">
+            <p class="eyebrow">Personal notes / Projects / Thinking</p>
+            <h1 id="siteTitle">把日常学习、项目实践和长期思考写下来。</h1>
+            <p class="intro">
+              这里是你的个人博客初版。它适合记录技术笔记、研究过程、生活观察和作品复盘。
+              后续只需要新增文章数据，就能持续扩展。
+            </p>
+            <div class="profile-actions">
+              <a class="primary-link" href="#posts">查看文章</a>
+              <a class="secondary-link" href="#about">了解作者</a>
+            </div>
+          </div>
+
+          <figure class="profile-media">
+            <img src="assets/writing-desk.svg" alt="书桌、笔记本和电脑组成的写作空间" />
+          </figure>
+        </div>
+      </section>
+
+      <section class="content-grid" id="posts" aria-label="博客内容">
+        <aside class="sidebar" aria-label="筛选和作者信息">
+          <div class="panel author-panel">
+            <p class="panel-label">作者</p>
+            <h2>你的名字</h2>
+            <p>
+              一句话介绍自己：你正在研究什么、做什么项目，或者为什么写这个博客。
+            </p>
+            <div class="socials" aria-label="作者链接">
+              <a href="https://github.com/nwafuSKD">GitHub</a>
+              <a href="mailto:hello@example.com">Email</a>
+            </div>
+          </div>
+
+          <div class="panel">
+            <label class="search-label" for="searchInput">搜索文章</label>
+            <input
+              id="searchInput"
+              class="search-input"
+              type="search"
+              placeholder="输入关键词"
+              autocomplete="off"
+            />
+          </div>
+
+          <div class="panel">
+            <p class="panel-label">标签</p>
+            <div class="tag-list" id="tagList" aria-label="文章标签"></div>
+          </div>
+        </aside>
+
+        <section class="post-area" aria-live="polite">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Latest writing</p>
+              <h2 id="viewTitle">最新文章</h2>
+            </div>
+            <p id="resultCount" class="muted"></p>
+          </div>
+
+          <div id="postList" class="post-list"></div>
+          <article id="postDetail" class="post-detail" hidden></article>
+        </section>
+      </section>
+
+      <section class="about-band" id="about" aria-labelledby="aboutTitle">
+        <div class="about-inner">
+          <div>
+            <p class="eyebrow">About</p>
+            <h2 id="aboutTitle">关于这个博客</h2>
+          </div>
+          <p>
+            这个站点是一个零依赖静态博客模板，可以直接放到 GitHub Pages。你可以把它当成长期写作空间：
+            写项目记录、读书笔记、研究日志、技术备忘或个人作品集。修改 `main.js` 里的文章数据和这里的个人介绍，就能替换成你的内容。
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> 你的名字。持续记录，持续整理。</p>
+      <a href="#home">回到顶部</a>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>我的个人博客</title>
+    <link>https://nwafuSKD.github.io/personal-blog/</link>
+    <description>记录学习、项目实践和长期思考。</description>
+    <language>zh-CN</language>
+    <lastBuildDate>Sat, 04 Jul 2026 00:00:00 +0800</lastBuildDate>
+    <item>
+      <title>为什么我要开始写自己的博客</title>
+      <link>https://nwafuSKD.github.io/personal-blog/#post/why-i-write</link>
+      <guid>https://nwafuSKD.github.io/personal-blog/#post/why-i-write</guid>
+      <pubDate>Sat, 04 Jul 2026 00:00:00 +0800</pubDate>
+      <description>博客不是为了马上获得关注，而是给自己留下一个可以反复整理、沉淀和复盘的地方。</description>
+    </item>
+    <item>
+      <title>一篇项目笔记应该怎么写</title>
+      <link>https://nwafuSKD.github.io/personal-blog/#post/project-notes-template</link>
+      <guid>https://nwafuSKD.github.io/personal-blog/#post/project-notes-template</guid>
+      <pubDate>Fri, 03 Jul 2026 00:00:00 +0800</pubDate>
+      <description>好的项目笔记不只是记录结果，还应该记录目标、约束、试错过程和下一步。</description>
+    </item>
+    <item>
+      <title>把个人博客发布到 GitHub Pages 的最小路径</title>
+      <link>https://nwafuSKD.github.io/personal-blog/#post/github-pages-path</link>
+      <guid>https://nwafuSKD.github.io/personal-blog/#post/github-pages-path</guid>
+      <pubDate>Thu, 02 Jul 2026 00:00:00 +0800</pubDate>
+      <description>静态博客最适合从 GitHub Pages 起步：文件简单、成本低，也方便以后迁移到独立域名。</description>
+    </item>
+  </channel>
+</rss>

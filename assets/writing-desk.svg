@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 980" role="img" aria-labelledby="title desc">
+  <title id="title">Writing desk illustration</title>
+  <desc id="desc">A tidy desk with a notebook, laptop, pen, coffee cup, and plant.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f7f1e7" />
+      <stop offset="1" stop-color="#dbe6df" />
+    </linearGradient>
+    <linearGradient id="light" x1="0" x2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".64" />
+      <stop offset="1" stop-color="#ffffff" stop-opacity=".08" />
+    </linearGradient>
+  </defs>
+  <rect width="1400" height="980" fill="url(#bg)" />
+  <rect y="600" width="1400" height="380" fill="#decbb0" />
+  <g stroke="#cbb793" stroke-width="2" opacity=".45">
+    <path d="M0 620h1400M0 642h1400M0 664h1400M0 686h1400M0 708h1400M0 730h1400M0 752h1400M0 774h1400M0 796h1400M0 818h1400M0 840h1400M0 862h1400M0 884h1400M0 906h1400M0 928h1400" />
+  </g>
+  <ellipse cx="390" cy="762" rx="215" ry="42" fill="#1f261f" opacity=".14" />
+  <rect x="210" y="275" width="520" height="430" fill="#fffaf2" />
+  <rect x="210" y="275" width="38" height="430" fill="#0f766e" />
+  <g stroke="#d4cbbc" stroke-width="3">
+    <path d="M260 335h416M260 377h416M260 419h416M260 461h416M260 503h416M260 545h416M260 587h416M260 629h416" />
+  </g>
+  <rect x="685" y="250" width="455" height="285" fill="#27323a" />
+  <rect x="715" y="285" width="395" height="210" fill="#e9f2eb" />
+  <g stroke-width="8" stroke-linecap="square">
+    <path d="M755 335h155M755 385h275" stroke="#0f766e" />
+    <path d="M755 435h210" stroke="#b96b45" />
+  </g>
+  <rect x="640" y="535" width="545" height="48" fill="#3f4b52" />
+  <ellipse cx="1135" cy="729" rx="105" ry="29" fill="#1f261f" opacity=".12" />
+  <circle cx="1130" cy="685" r="85" fill="#ebe8da" />
+  <ellipse cx="1130" cy="667" rx="50" ry="29" fill="#694834" opacity=".74" />
+  <path d="M1220 640c48 11 53 78 5 104" fill="none" stroke="#ebe8da" stroke-width="24" />
+  <g transform="translate(770 725) rotate(-17)">
+    <rect width="300" height="18" fill="#232d33" />
+    <rect x="288" y="-2" width="42" height="22" fill="#b96b45" />
+  </g>
+  <g>
+    <ellipse cx="132" cy="305" rx="46" ry="95" fill="#618b6f" />
+    <ellipse cx="167" cy="435" rx="55" ry="85" fill="#618b6f" />
+    <rect x="92" y="520" width="138" height="105" fill="#b96b45" />
+  </g>
+  <path d="M930 0h470l-210 980H755z" fill="url(#light)" opacity=".72" />
+</svg>
